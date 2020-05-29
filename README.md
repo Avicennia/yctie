@@ -12,24 +12,24 @@ Media:
 
 A simple protected node storage mod for Nodecore servers.
 
-###Includes:                                     
+### Includes:                                     
 
-#####Golden Lockbox node
+##### Golden Lockbox node
 _Behaves like a typical Nodecore lode shelf, but is owned by it's placer and is able to be gently locked._
 
-#####Golden Lockbox Key
+##### Golden Lockbox Key
 _Used to lock a lockbox, or claim an unclaimed lockbox._
 
-#####Securium Shard
+##### Securium Shard
 _A mineral found underground that is obtained as a secondary product of mining lode ore._
 
 
-###Considerations:
+### Considerations:
 
-#####Tote-transport
+##### Tote-transport
 Use of lockboxes with totes is supported, but unlocked lockboxes may still be moved by others using a tote (Though they are still soulbound to their original owners).
 
-#####Licensing
+##### Licensing
 YCTIE is (C)2020 by AvicenniaG [<a.germinans@gmail.com>]
 
 MIT License (http://www.opensource.org/licenses/MIT)
