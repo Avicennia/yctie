@@ -15,10 +15,12 @@ A simple protected node storage mod for Nodecore servers.
 ### Includes:                                     
 
 ##### Golden Lockbox node
-_Behaves like a typical Nodecore lode shelf, but is owned by it's placer and is able to be gently locked._
+_Behaves like a typical Nodecore lode shelf, but is owned by it's placer and is able to be gently locked.
+Can be crafted by either pummeling 12 securium shards, or crafting with a lode shelf/crate and 8 securium shards._
+
 
 ##### Golden Lockbox Key
-_Used to lock a lockbox, or claim an unclaimed lockbox._
+_Used to lock a lockbox, or claim an unclaimed lockbox. Can be crafted by pummeling 3 securium shards together._
 
 ##### Securium Shard
 _A mineral found underground that is obtained as a secondary product of mining lode ore._
