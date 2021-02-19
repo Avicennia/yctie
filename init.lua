@@ -127,11 +127,7 @@ minetest.register_craftitem(tm.."securium", {
 })
 
 -- Add mining byproduct probability
-local the_digging_bird_gets_the_ore = function(pos, digger)
-    local number = math.random(0,300)
-    return pos and digger and number >= 270 and  minetest.item_drop(ItemStack(tm.."securium"),digger,pos) or nil
-end
-minetest.override_item("nc_lode:ore", {after_dig_node = function(pos, oldnode, oldmetadata, digger) the_digging_bird_gets_the_ore(pos, digger) end})
+minetest.override_item("nc_lode:ore", {drop = {items={{items={tm.."securium"},rarity=10}}}})
 
 -- Add crafting recipes
 nodecore.register_craft({
